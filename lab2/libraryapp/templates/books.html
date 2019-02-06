@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  <h1>Book Details</h1>
+  <p>The library has the following books (based on the books dictionary we created in views.py):</p>
+  <ul>
+
+      <div class="container">
+      <table class="table">
+        <thead class="thead-inverse">
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+          </tr>
+
+          	{% for key,value in books.items %}
+            <tr>
+          	<td>{{key}}</td>
+          	<td>{{value}}</td>
+            </tr>
+    		{% endfor %}
+
+        </thead>
+
+      </table>
+    </div>
+
+{% endblock %}
+

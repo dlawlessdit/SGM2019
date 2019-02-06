@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  <h1>Library Home</h1>
+
+<!-- This is the start of the navigation bar at the top of the page-->
+<header>
+  <p>Welcome to the Library, a website developed by <em>Put your name here</em>!</p>
+</header>
+  <p>The library has the following record counts (based on the dictionary we created in views.py):</p>
+  <ul>
+    <li><strong>Books:</strong> {{ details.num_books }}</li>
+    <li><strong>Copies:</strong> {{ details.num_instances }}</li>
+    <li><strong>Copies available:</strong> {{ details.num_instances_available }}</li>
+    <li><strong>Authors:</strong> {{ details.num_authors }}</li>
+  </ul>
+
+{% endblock %}
+
