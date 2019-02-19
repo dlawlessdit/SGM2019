@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+{% block content %}
+
+  <h1>{%trans "Book Details" %}</h1>
+  <p>{%trans "The library has the following books (based on the books dictionary we created in views.py):" %}</p>
+  <ul>
+
+      <div class="container">
+      <table class="table">
+        <thead class="thead-inverse">
+          <tr>
+            <th>{%trans Title %}</th>
+            <th>{%trans Author%}</th>
+          </tr>
+
+          	{% for key,value in books.items %}
+            <tr>
+          	<td>{{key}}</td>
+          	<td>{{value}}</td>
+            </tr>
+    		{% endfor %}
+
+        </thead>
+
+      </table>
+    </div>
+
+{% endblock %}
+

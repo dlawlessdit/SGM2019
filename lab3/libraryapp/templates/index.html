@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+
+
+{% block content %}
+
+  <h1>{%trans "Library Home" %}</h1>
+
+<!-- This is the start of the navigation bar at the top of the page-->
+
+  <p>{%trans "The library has the following record counts (based on the dictionary we created in views.py):" %}</p>
+  <ul>
+    <li><strong>{%trans "Books:"%}</strong> {{ details.num_books }}</li>
+    <li><strong>{%trans "Copies:"%}</strong> {{ details.num_instances }}</li>
+    <li><strong>{%trans "Copies available:"%}</strong> {{ details.num_instances_available }}</li>
+    <li><strong>{%trans "Authors:"%}</strong> {{ details.num_authors }}</li>
+  </ul>
+
+{% endblock %}
