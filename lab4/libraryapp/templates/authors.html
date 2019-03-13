@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+
+
+{% block content %}
+  <h1>{%trans "Author Details" %}</h1>
+  <ul>
+      <div class="container">
+      <table class="table">
+        <thead class="thead-inverse">
+          <tr>
+            <th>{%trans "Author"%} {%trans "Name" %}</th>
+          </tr>
+
+          	{% for key,value in authors.items %}
+            <tr>
+          	<td>{{value}}</td>
+            </tr>
+    		{% endfor %}
+
+        </thead>
+
+      </table>
+    </div>
+{% endblock %}
+

@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-19 11:48+0000\n"
+"PO-Revision-Date: 2019-02-19 11:48+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#: .\libraryapp\templates\about.html:6
+msgid "Software For the Global Market 2 - Library"
+msgstr "Software für den globalen Markt 2-Bibliothek"
+
+#: .\libraryapp\templates\about.html:10
+msgid "This Website was developed by me."
+msgstr "Diese Website wurde von mir entwickelt."
+
+#: .\libraryapp\templates\authors.html:7
+msgid "Author Details"
+msgstr "Autor Details"
+
+#: .\libraryapp\templates\authors.html:13
+msgid "Author"
+msgstr "Autor"
+
+#: .\libraryapp\templates\authors.html:13
+msgid "Name"
+msgstr "Name"
+
+#: .\libraryapp\templates\base.html:8
+msgid "Local Library"
+msgstr "Lokale Bibliothek"
+
+#: .\libraryapp\templates\base.html:32
+msgid "Home"
+msgstr "Startseite"
+
+#: .\libraryapp\templates\base.html:33
+msgid "All books"
+msgstr "Alle Bücher"
+
+#: .\libraryapp\templates\base.html:34
+msgid "All authors"
+msgstr "Alle Autoren"
+
+#: .\libraryapp\templates\books.html:6
+msgid "Book Details"
+msgstr "Autor Details"
+
+#: .\libraryapp\templates\books.html:7
+msgid ""
+"The library has the following books (based on the books dictionary we "
+"created in views.py):"
+msgstr ""
+"Die Bibliothek hat folgende Rekordzahlen (basierend auf dem Wörterbuch, das "
+"wir in views.py erstellt haben):"
+
+#: .\libraryapp\templates\index.html:8
+msgid "Library Home"
+msgstr "Bibliotheksheim"
+
+#: .\libraryapp\templates\index.html:12
+msgid ""
+"The library has the following record counts (based on the dictionary we "
+"created in views.py):"
+msgstr ""
+"Die Bibliothek hat folgende Rekordzahlen (basierend auf dem Wörterbuch, das "
+"wir in views.py erstellt haben):"
+
+#: .\libraryapp\templates\index.html:14
+msgid "Books:"
+msgstr "Bücher:"
+
+#: .\libraryapp\templates\index.html:15
+msgid "Copies:"
+msgstr "Kopien:"
+
+#: .\libraryapp\templates\index.html:16
+msgid "Copies available:"
+msgstr "Exemplare verfügbar:"
+
+#: .\libraryapp\templates\index.html:17
+msgid "Authors:"
+msgstr "Autoren:"
+
+#: .\libraryapp\views.py:15
+msgid "Welcome to the language bit!"
+msgstr "Willkommen in der Sprache Bit!"
+
+#: .\libraryproj\settings.py:117
+msgid "English"
+msgstr "Englisch"
+
+#: .\libraryproj\settings.py:118
+msgid "German"
+msgstr "Deutsch"
+
+#: .\libraryproj\settings.py:119
+msgid "Portuguese"
+msgstr "Portugiesisch"
