@@ -1,0 +1,29 @@
+Folder PATH listing for volume Google Drive File Stream
+Volume serial number is 00000202 1983:1116
+G:\MY DRIVE\GSD\LAB_CLASSES\LAB8\LAB7APP\STATIC
++---img
+|   |   lab7images.zip
+|   |   
+|   +---fr
+|   |       discover.jpg
+|   |       mockup5.jpg
+|   |       mockup4.jpg
+|   |       mockup3.jpg
+|   |       mockup2.jpg
+|   |       mockup1.jpg
+|   |       mockup0.jpg
+|   |       discover.png
+|   |       
+|   \---en
+|           mockup1.jpg
+|           mockup2.jpg
+|           mockup3.jpg
+|           mockup4.jpg
+|           mockup5.jpg
+|           mockup6.jpg
+|           mockup0.jpg
+|           discover.png
+|           
+\---css
+        custom.css
+        
