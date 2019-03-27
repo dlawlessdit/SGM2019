@@ -1,0 +1,56 @@
+Folder PATH listing for volume Google Drive File Stream
+Volume serial number is 1983-1116
+G:.
+|   admin.py
+|   apps.py
+|   models.py
+|   tests.py
+|   views.py
+|   __init__.py
+|   urls.py
+|   dir.txt
+|   output.txt
+|   
++---migrations
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           __init__.cpython-37.pyc
+|           
++---templates
+|       index.html
+|       
++---__pycache__
+|       __init__.cpython-37.pyc
+|       models.cpython-37.pyc
+|       admin.cpython-37.pyc
+|       urls.cpython-37.pyc
+|       views.cpython-37.pyc
+|       
+\---static
+    +---img
+    |   |   lab7images.zip
+    |   |   
+    |   +---fr
+    |   |       discover.jpg
+    |   |       mockup5.jpg
+    |   |       mockup4.jpg
+    |   |       mockup3.jpg
+    |   |       mockup2.jpg
+    |   |       mockup1.jpg
+    |   |       mockup0.jpg
+    |   |       discover.png
+    |   |       
+    |   \---en
+    |           mockup1.jpg
+    |           mockup2.jpg
+    |           mockup3.jpg
+    |           mockup4.jpg
+    |           mockup5.jpg
+    |           mockup6.jpg
+    |           mockup0.jpg
+    |           discover.png
+    |           
+    \---css
+            custom.css
+            

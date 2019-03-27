@@ -1,0 +1,16 @@
+{% load i18n %}
+
+{% load static %}
+{% get_language_info for LANGUAGE_CODE as lang %}
+
+<!DOCTYPE html>
+  <html>
+  <body>
+<!-- If the language code is english load index.html, if it is anything else load index2.html -->
+      {% if lang.code == "en" %}
+        {%include "index.html" %}
+      {% else %}
+         {%include "index2.html" %}
+      {% endif %}
+  </body>
+  </html>
