@@ -177,13 +177,15 @@
 <!-- Javascript function to change visibility of carousel or portfolio based on language -->
 <script language='javascript'>
 function showDivForLang(){
-     var lng = "{{ lang_code}"; // put language into a variable 
+     var lng = "{{ lang.code }}"; // put language into a variable 
      var div1 = document.getElementById("carousel"); //variables to represent the division document elements
      var div2 = document.getElementById("portfolio");
+
+  
     if (lng == "fr")
     {
     div1.style.display = "block";// show carousel if french
-    div2.style.display = "block";// hide carousel if french
+    div2.style.display = "none";// hide carousel if french
   }
     else { 
     div2.style.display = "block"; // show portfolio if not french
